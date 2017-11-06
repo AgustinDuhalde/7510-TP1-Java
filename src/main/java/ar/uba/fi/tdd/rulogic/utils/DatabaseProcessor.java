@@ -34,13 +34,13 @@ public class DatabaseProcessor {
 
     public List<String> getFacts() {
         return databaseList.stream()
-                .filter( Utils::isFact )
+                .filter( StringUtils::isFact )
                 .collect( Collectors.toList() );
     }
 
     public List<String> getRules() {
         return databaseList.stream()
-                .filter( Utils::isRule )
+                .filter( StringUtils::isRule )
                 .collect( Collectors.toList() );
     }
 }

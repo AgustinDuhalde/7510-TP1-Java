@@ -14,7 +14,7 @@ public class KnowledgeBase {
         databaseProcessor = new DatabaseProcessor( databaseName );
 
         facts = new Facts( databaseProcessor.getFacts() );
-        rules = new Rules( databaseProcessor.getRules() );
+        rules = new Rules( facts, databaseProcessor.getRules() );
     }
 
 	public boolean answer( @NotNull final String query ) {
