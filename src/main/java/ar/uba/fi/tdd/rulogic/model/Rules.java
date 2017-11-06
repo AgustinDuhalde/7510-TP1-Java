@@ -6,7 +6,6 @@ import com.sun.istack.internal.NotNull;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
-import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 import static ar.uba.fi.tdd.rulogic.utils.StringUtils.replaceAll;
@@ -63,5 +62,9 @@ public class Rules implements QueryImplicator {
         return 0 == queries.stream()
                 .filter( query -> !facts.implyQuery(query) )
                 .count();
+    }
+
+    public boolean hasRule( @NotNull final String ruleName ) {
+        return rulesMap.containsKey( ruleName );
     }
 }

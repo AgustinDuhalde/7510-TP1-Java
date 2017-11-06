@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 
 public class DatabaseProcessor {
 
-    @NotNull private List<String> databaseList = new ArrayList<String>();
+    @NotNull private List<String> databaseList = new ArrayList<>();
 
     public DatabaseProcessor( @NotNull final String databaseName ) {
 

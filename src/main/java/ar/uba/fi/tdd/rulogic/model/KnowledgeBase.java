@@ -1,6 +1,7 @@
 package ar.uba.fi.tdd.rulogic.model;
 
 import ar.uba.fi.tdd.rulogic.utils.DatabaseProcessor;
+import ar.uba.fi.tdd.rulogic.utils.StringUtils;
 import com.sun.istack.internal.NotNull;
 
 public class KnowledgeBase {
@@ -18,7 +19,9 @@ public class KnowledgeBase {
     }
 
 	public boolean answer( @NotNull final String query ) {
-		return true;
+		if ( rules.hasRule( StringUtils.getQueryName( query) ) )
+		    return rules.implyQuery( query );
+		else
+		    return facts.implyQuery( query );
 	}
-
 }
