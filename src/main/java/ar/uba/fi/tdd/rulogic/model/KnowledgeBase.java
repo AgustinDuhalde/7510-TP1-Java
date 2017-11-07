@@ -19,9 +19,11 @@ public class KnowledgeBase {
     }
 
 	public boolean answer( @NotNull final String query ) {
-		if ( rules.hasRule( StringUtils.getQueryName( query) ) )
-		    return rules.implyQuery( query );
+        final String processedQuery = databaseProcessor.processQuery( query );
+
+		if ( rules.hasRule( StringUtils.getQueryName( processedQuery ) ) )
+		    return rules.implyQuery( processedQuery );
 		else
-		    return facts.implyQuery( query );
+		    return facts.implyQuery( processedQuery );
 	}
 }

@@ -43,4 +43,11 @@ public class DatabaseProcessor {
                 .filter( StringUtils::isRule )
                 .collect( Collectors.toList() );
     }
+
+    public String processQuery( @NotNull final String query ) {
+        String processedQuery = query;
+        processedQuery = processedQuery.trim();
+        processedQuery = processedQuery.replaceAll("\\s+","");
+        return processedQuery;
+    }
 }
