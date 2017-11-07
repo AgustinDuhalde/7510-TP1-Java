@@ -1,7 +1,6 @@
 package ar.uba.fi.tdd.rulogic.model;
 
 import ar.uba.fi.tdd.rulogic.utils.StringUtils;
-import com.sun.istack.internal.NotNull;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -13,11 +12,11 @@ import static ar.uba.fi.tdd.rulogic.utils.StringUtils.zipmap;
 
 public class Rules implements QueryImplicator {
 
-    @NotNull private List<String> rulesNames;
-    @NotNull private Facts facts;
-    @NotNull private HashMap<String, String> rulesMap = new HashMap<>();
+    private List<String> rulesNames;
+    private Facts facts;
+    private HashMap<String, String> rulesMap = new HashMap<>();
 
-    public Rules( @NotNull final Facts facts, @NotNull final List<String> rulesList ) {
+    public Rules( final Facts facts, final List<String> rulesList ) {
         this.facts = facts;
 
         this.rulesNames = rulesList.stream()
@@ -28,7 +27,7 @@ public class Rules implements QueryImplicator {
     }
 
     @Override
-    public boolean implyQuery( @NotNull final String query ) {
+    public boolean implyQuery( final String query ) {
         final String queryName = StringUtils.getQueryName( query );
         final String queryParams = StringUtils.getParams( query );
 
@@ -44,13 +43,13 @@ public class Rules implements QueryImplicator {
         return implyQueries( replacedFactsList );
     }
 
-    private HashMap<String, String> createParamsMap( @NotNull final String ruleParams, @NotNull final String queryParams) {
+    private HashMap<String, String> createParamsMap( final String ruleParams, final String queryParams) {
         final List<String> ruleParamsList = Arrays.asList( ruleParams.split( "," ) );
         final List<String> queryParamsList = Arrays.asList( queryParams.split( "," ) );
         return zipmap( ruleParamsList, queryParamsList );
     }
 
-    private String replaceParams( @NotNull final String ruleFacts, @NotNull final HashMap<String, String> paramsMap ) {
+    private String replaceParams( final String ruleFacts, final HashMap<String, String> paramsMap ) {
         final String[] replacedFacts = {ruleFacts};
         paramsMap.forEach(
                 ( key, value) -> replacedFacts[0] = replaceAll(replacedFacts[0], key, value )
@@ -58,13 +57,13 @@ public class Rules implements QueryImplicator {
         return replacedFacts[0];
     }
 
-    private boolean implyQueries( @NotNull final List<String> queries ) {
+    private boolean implyQueries( final List<String> queries ) {
         return 0 == queries.stream()
                 .filter( query -> !facts.implyQuery(query) )
                 .count();
     }
 
-    public boolean hasRule( @NotNull final String ruleName ) {
+    public boolean hasRule( final String ruleName ) {
         return rulesMap.containsKey( ruleName );
     }
 }

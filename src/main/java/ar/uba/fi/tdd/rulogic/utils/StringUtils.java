@@ -1,22 +1,20 @@
 package ar.uba.fi.tdd.rulogic.utils;
 
-import com.sun.istack.internal.NotNull;
-
 import java.util.HashMap;
 import java.util.List;
 import java.util.regex.Pattern;
 
 public class StringUtils {
 
-    static public boolean isFact( @NotNull final String line ) {
+    static public boolean isFact( final String line ) {
         return !line.contains( ":-" );
     }
 
-    static public boolean isRule( @NotNull final String line ) {
+    static public boolean isRule( final String line ) {
         return line.contains( ":-" );
     }
 
-    static public String getRuleName( @NotNull final String rule ) {
+    static public String getRuleName( final String rule ) {
         return rule.split( "\\(" )[0];
     }
 
@@ -27,11 +25,11 @@ public class StringUtils {
         return map;
     }
 
-    static public String getQueryName( @NotNull final String query ) {
+    static public String getQueryName( final String query ) {
         return query.split( "\\(" )[0];
     }
 
-    static public String getParams( @NotNull final String query ) {
+    static public String getParams( final String query ) {
         final int indexStart = query.indexOf( "(" );
         final int indexEnd = query.indexOf( ")" );
         return query.substring( indexStart + 1, indexEnd );

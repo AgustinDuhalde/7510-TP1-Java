@@ -1,7 +1,5 @@
 package ar.uba.fi.tdd.rulogic.utils;
 
-import com.sun.istack.internal.NotNull;
-
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.nio.file.Files;
@@ -13,9 +11,9 @@ import java.util.stream.Stream;
 
 public class DatabaseProcessor {
 
-    @NotNull private List<String> databaseList = new ArrayList<>();
+    private List<String> databaseList = new ArrayList<>();
 
-    public DatabaseProcessor( @NotNull final String databaseName ) {
+    public DatabaseProcessor( final String databaseName ) {
 
         try (Stream<String> stream = Files.lines(
                 Paths.get( ClassLoader.getSystemResource( databaseName ).toURI() ) )
@@ -44,7 +42,7 @@ public class DatabaseProcessor {
                 .collect( Collectors.toList() );
     }
 
-    public String processQuery( @NotNull final String query ) {
+    public String processQuery( final String query ) {
         String processedQuery = query;
         processedQuery = processedQuery.trim();
         processedQuery = processedQuery.replaceAll("\\s+","");
