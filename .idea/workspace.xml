@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82b66fdb-892b-4570-b350-2e2da22298f4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/Facts.java" afterPath="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/Facts.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/KnowledgeBase.java" afterPath="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/KnowledgeBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/QueryImplicator.java" afterPath="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/QueryImplicator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/Rules.java" afterPath="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/Rules.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/utils/DatabaseProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/utils/DatabaseProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ar/uba/fi/tdd/rulogic/model/KnowledgeBaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/ar/uba/fi/tdd/rulogic/model/KnowledgeBaseTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/utils/StringUtils.java" afterPath="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/utils/StringUtils.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,36 +32,10 @@
       <file leaf-file-name="KnowledgeBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/KnowledgeBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="288">
+              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/utils/DatabaseProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rules.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/Rules.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2582#2583#0" expanded="true" />
-                <element signature="e#2637#2638#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,8 +44,8 @@
       <file leaf-file-name="KnowledgeBaseTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ar/uba/fi/tdd/rulogic/model/KnowledgeBaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="52" column="79" lean-forward="false" selection-start-line="52" selection-start-column="79" selection-end-line="52" selection-end-column="79" />
+            <state relative-caret-position="306">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#215#216#0" expanded="true" />
                 <element signature="e#269#270#0" expanded="true" />
@@ -112,14 +89,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/rules.db" />
         <option value="$MAVEN_REPOSITORY$/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar!/org/mockito/MockitoAnnotations.class" />
-        <option value="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/QueryImplicator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/Facts.java" />
         <option value="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/utils/Utils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/utils/StringUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ar/uba/fi/tdd/rulogic/model/KnowledgeBaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/Facts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/KnowledgeBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/QueryImplicator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/Rules.java" />
         <option value="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/utils/DatabaseProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/KnowledgeBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ar/uba/fi/tdd/rulogic/model/KnowledgeBaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/utils/StringUtils.java" />
       </list>
     </option>
   </component>
@@ -262,8 +239,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KnowledgeBaseTest.nicolasShouldBeAlejandrosUncle">
-    <configuration name="KnowledgeBaseTest.juanShouldBeInTheDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.KnowledgeBaseTest">
+    <configuration name="KnowledgeBaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ar.uba.fi.tdd.rulogic.model.*" />
@@ -275,8 +252,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ar.uba.fi.tdd.rulogic.model" />
       <option name="MAIN_CLASS_NAME" value="ar.uba.fi.tdd.rulogic.model.KnowledgeBaseTest" />
-      <option name="METHOD_NAME" value="juanShouldBeInTheDatabase" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -470,19 +447,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.KnowledgeBaseTest.juanShouldBeInTheDatabase" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.KnowledgeBaseTest.juanShouldBePepesFather" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.KnowledgeBaseTest.nicolasShouldBeAlejandrosUncle" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.KnowledgeBaseTest.nicolasShouldBeBoy" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.KnowledgeBaseTest.nicolasShouldBeRobertosBrother" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.KnowledgeBaseTest.juanShouldBePepesFather" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.KnowledgeBaseTest.nicolasShouldBeAlejandrosUncle" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.KnowledgeBaseTest.nicolasShouldBeBoy" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.KnowledgeBaseTest.nicolasShouldBeRobertosBrother" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.KnowledgeBaseTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.KnowledgeBaseTest.nicolasShouldBeAlejandrosUncle" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.KnowledgeBaseTest.nicolasShouldBeRobertosBrother" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.KnowledgeBaseTest.nicolasShouldBeBoy" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.KnowledgeBaseTest.juanShouldBePepesFather" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.KnowledgeBaseTest.juanShouldBeInTheDatabase" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.KnowledgeBaseTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.KnowledgeBaseTest.nicolasShouldBeAlejandrosUncle" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.KnowledgeBaseTest.nicolasShouldBeRobertosBrother" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.KnowledgeBaseTest.nicolasShouldBeBoy" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.KnowledgeBaseTest.juanShouldBePepesFather" />
       </list>
     </recent_temporary>
   </component>
@@ -500,13 +477,7 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="KnowledgeBaseTest - 2017.11.06 at 20h 48m 30s.xml">
-      <configuration name="KnowledgeBaseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KnowledgeBaseTest - 2017.11.06 at 20h 51m 23s.xml">
-      <configuration name="KnowledgeBaseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KnowledgeBaseTest - 2017.11.06 at 20h 52m 07s.xml">
+    <history-entry file="KnowledgeBaseTest - 2017.11.06 at 21h 04m 37s.xml">
       <configuration name="KnowledgeBaseTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="KnowledgeBaseTest_juanShouldBeInTheDatabase - 2017.11.06 at 20h 53m 54s.xml">
@@ -524,6 +495,12 @@
     <history-entry file="KnowledgeBaseTest_nicolasShouldBeAlejandrosUncle - 2017.11.06 at 20h 59m 09s.xml">
       <configuration name="KnowledgeBaseTest.nicolasShouldBeAlejandrosUncle" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="KnowledgeBaseTest_nicolasShouldBeAlejandrosUncle - 2017.11.06 at 21h 01m 25s.xml">
+      <configuration name="KnowledgeBaseTest.nicolasShouldBeAlejandrosUncle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KnowledgeBaseTest_nicolasShouldBeAlejandrosUncle - 2017.11.06 at 21h 04m 28s.xml">
+      <configuration name="KnowledgeBaseTest.nicolasShouldBeAlejandrosUncle" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="KnowledgeBaseTest_nicolasShouldBeBoy - 2017.11.06 at 21h 00m 18s.xml">
       <configuration name="KnowledgeBaseTest.nicolasShouldBeBoy" configurationId="JUnit" />
     </history-entry>
@@ -533,7 +510,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -541,13 +517,13 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39805827" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -573,31 +549,31 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/Rules.java</url>
-          <line>22</line>
+          <line>21</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/Rules.java</url>
-          <line>26</line>
+          <line>25</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/Rules.java</url>
-          <line>31</line>
+          <line>30</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/Rules.java</url>
-          <line>57</line>
+          <line>56</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/Rules.java</url>
-          <line>53</line>
+          <line>52</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
@@ -619,14 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/QueryImplicator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -655,67 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/utils/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="40" column="55" lean-forward="false" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/Facts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/utils/DatabaseProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/Rules.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2582#2583#0" expanded="true" />
-            <element signature="e#2637#2638#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/KnowledgeBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/rules.db">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -724,10 +631,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/Facts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/QueryImplicator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/Rules.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2434#2435#0" expanded="true" />
+            <element signature="e#2489#2490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/utils/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/utils/DatabaseProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="44" column="32" lean-forward="false" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ar/uba/fi/tdd/rulogic/model/KnowledgeBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/site/cobertura/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ar/uba/fi/tdd/rulogic/model/KnowledgeBaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="52" column="79" lean-forward="false" selection-start-line="52" selection-start-column="79" selection-end-line="52" selection-end-column="79" />
+        <state relative-caret-position="306">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#215#216#0" expanded="true" />
             <element signature="e#269#270#0" expanded="true" />
